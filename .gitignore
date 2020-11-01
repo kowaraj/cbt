@@ -10,3 +10,4 @@ npm-debug.log
 bundleOutput/
 public/img/
 public/index.js.LICENSE.txt
+.firebase/
