@@ -7,13 +7,8 @@ let makeRootElement = (n) => {
 };
 
 makeRootElement("root");
-//ReactDOMRe.renderToElementWithId(<App />, "root");
+
 ReactDOMRe.renderToElementWithId(
   <Test2> { React.string("Hello 4") } </Test2>, 
   "root");
 
-// makeRootElement("root2");
-// //ReactDOMRe.renderToElementWithId(<App />, "root");
-// ReactDOMRe.renderToElementWithId(
-//   <ReasonUsingJSUsingReason />,
-//   "root2");

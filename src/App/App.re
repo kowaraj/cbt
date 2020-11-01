@@ -3,7 +3,7 @@ let make = (~children) => {
   let (show, setShow) = React.useState(() => true);
 
   React.useEffect0(() => {
-    let id = Js.Global.setInterval( () => setShow(previousShow => !previousShow), 1000, );
+    let id = Js.Global.setInterval( () => setShow(previousShow => !previousShow), 100000, );
     Some(() => Js.Global.clearInterval(id));
   });
 
@@ -19,5 +19,9 @@ let make = (~children) => {
       ReactDOMRe.Style.make(~opacity="0", ~transition="opacity 1s", ());
     };
 
-  <div style> children </div>;
+  <div className="mymediastyle1">
+    <Navbar />
+    <div style> children </div>
+
+  </div>;
 };
