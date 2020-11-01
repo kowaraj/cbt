@@ -9,6 +9,6 @@ let makeRootElement = (n) => {
 makeRootElement("root");
 
 ReactDOMRe.renderToElementWithId(
-  <Test2> { React.string("Hello 4") } </Test2>, 
+  <App> { React.string("Hello 4") } </App>, 
   "root");
 

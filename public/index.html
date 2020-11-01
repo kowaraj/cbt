@@ -2,11 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ReasonReact Examples</title>
-</head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+  <title>Cogito ergo sum</title>
+</head>
 <body>
 
+  <style>
+    .mymediastyle1 {
+      background: url(./img/cogito.jpg);
+      background-position: center;
+      min-height: 1000px;
+      background-size: cover;
+    }
+    @media screen and (max-width: 670px){
+      .mymediastyle1 {
+        min-height: 200px;
+      }
+    }
+  </style>
 
   <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
@@ -37,9 +55,10 @@
         console.log(change)
       })
     })
-
-
   </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
 
   <script src="./index.js"></script>
 </body>

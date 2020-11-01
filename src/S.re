@@ -1,3 +1,8 @@
+
+
+
+// Navbar
+
 let nav = "nav-wrapper"
 //let nav = "nav-wrapper transparent"
 let nav_container = "container"

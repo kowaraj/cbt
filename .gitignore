@@ -8,3 +8,5 @@ npm-debug.log
 */*.bs.js
 */*/*.bs.js
 bundleOutput/
+public/img/
+public/index.js.LICENSE.txt
