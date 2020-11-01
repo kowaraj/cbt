@@ -8,6 +8,6 @@ let makeRootElement = () => {
 makeRootElement();
 //ReactDOMRe.renderToElementWithId(<App />, "root");
 ReactDOMRe.renderToElementWithId(
-  <Test1> { React.string("Hello from Test ??!") } </Test1>, 
+  <Test2> { React.string("Hello 4") } </Test2>, 
   "root");
 

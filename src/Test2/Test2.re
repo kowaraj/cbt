@@ -19,5 +19,22 @@ let make = (~children) => {
       ReactDOMRe.Style.make(~opacity="0", ~transition="opacity 1s", ());
     };
 
-  <div style> children </div>;
+  // let style2 =
+  //   if (true) { 
+  //     ReactDOMRe.Style.make(
+  //       ~background="url(public/img/cogito.jpg)", 
+  //       ~backgroundSize="cover", 
+  //       //~backgroundRepeat="repeate",
+  //       ~backgroundPosition="center",
+  //       ~minHeight="1000px",
+  //       ());
+  //   } else { 
+  //     ReactDOMRe.Style.make(~opacity="0", ~transition="opacity 1s", ());
+  //   };
+
+  <div className="mymediastyle">
+
+    <div style> children </div>
+
+  </div>;
 };
