@@ -21,6 +21,8 @@ let make = (~children) => {
 
   <div className="mymediastyle1">
     <Navbar />
+    <Pic />
+    <Tabs />
     <div style> children </div>
 
   </div>;

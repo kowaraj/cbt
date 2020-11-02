@@ -3,7 +3,7 @@ let make = () => {
     <header>
       <nav className="nav-wrapper"> 
         <div className="container">
-          <a href="" className="brand-logo"> {R.str("Watch Your SELF")} </a>
+          <a href="" className="brand-logo"> {R.str("CBT")} </a>
 
           <a href="" className="sidenav-trigger" data="slide-out"> 
             <i className="material-icons"> {R.str("menu")}</i>
